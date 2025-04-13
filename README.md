@@ -20,7 +20,7 @@ With the increasing penetration of EVs and smart meters, understanding when and 
 ## 🧰 Project Structure
 | Directory/File                        | Description                                              |
 |---------------------------------------|----------------------------------------------------------|
-| `data/`                               | Input data (not included for privacy)                    |
+| `data/`                               | Input data                    |
 | `notebooks/`                          | Jupyter notebooks for exploration                        |
 | `scripts/`                            | Python scripts for processing & plotting                 |
 | `scripts/preprocessing_df.py`         | Preprocessing functions for high dimensional load profiles |
