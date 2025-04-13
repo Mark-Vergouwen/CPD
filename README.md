@@ -18,14 +18,13 @@ With the increasing penetration of EVs and smart meters, understanding when and 
 - 📊 Modular plotting per household, per week, or monthly overview
 
 ## 🧰 Project Structure
-
-├── data/                              # Input data
-├── notebooks/                         # Jupyter notebooks for exploration
-├── scripts/                           # Python scripts for processing & plotting
-│   ├── preprocessing_df.py            # Preprocessing functions for high dimensional load profiles
-│   ├── detect_changepoints.py         # Core logic to detect changepoints 
-│   ├── detect_sessions.py             # Core logic to detect charging sessions
-│   ├── plot_changepoints.py           # Plotting functionality
-│   └── plot_changepoints_sessions.py  # Plotting functionality         
-├── results/                           # Output session detections
-├── README.md                          # This file
+data/                              # Input data
+notebooks/                         # Jupyter notebooks for exploration
+scripts/                           # Python scripts for processing & plotting
+    preprocessing_df.py            # Preprocessing functions for high dimensional load profiles
+    detect_changepoints.py         # Core logic to detect changepoints 
+    detect_sessions.py             # Core logic to detect charging sessions
+    plot_changepoints.py           # Plotting functionality
+    plot_changepoints_sessions.py  # Plotting functionality         
+results/                           # Output session detections
+README.md                          # This file
