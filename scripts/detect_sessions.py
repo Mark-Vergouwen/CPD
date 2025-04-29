@@ -7,14 +7,14 @@ def detect_sessions(df, aggregated_breakpoints, contrib_features_dict, max_kw_co
     """
     Identify charging sessions by classifying aggregated changepoints into start or end.
     
-    Parameters:
+    INPUT:
     - df: DataFrame with datetime index and columns representing the load profile.
-    - aggregated_breakpoints: List of aggregated changepoints (from the `filter groups` function).
+    - aggregated_breakpoints: List of aggregated changepoints (from the 'detect_changepoints' function).
     - contrib_features_dict: Dictionary with breakpoints as keys and their contributing features as values.
     - max_kw_column: The column representing the maximum load per timestamp (default is "max_kw").
     - threshold: The threshold for determining a significant change in load.
     
-    Returns:
+    OUTPUT:
     - sessions: List of tuples where each tuple represents a charging session (start, end).
     """
     
