@@ -14,6 +14,7 @@ def plot_changepoints_sessions_multiple(results, month, eans_to_plot=None):
     - eans_to_plot: list of EANs to include. If None, all available EANs in the dictionary will be used.
     
     OUTPUT
+    - Graphical representation for identified changepoints over multiple EANs
     """
     
     # Filter EANs with available data for the selected month
