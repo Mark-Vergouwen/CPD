@@ -26,7 +26,7 @@ With the increasing penetration of EVs and smart meters, understanding when and 
 | `data/`                               | Input data                    |
 | `notebooks/`                          | Jupyter notebooks for exploration                        |
 | `notebooks/CPD_public_individual`     | Example: EV charging detection for one household|
-| `notebooks/CPD_public_aggregated`     | Example: EV charging detection for multiple household|
+| `notebooks/CPD_public_aggregated`     | Example: EV charging detection for multiple households|
 | `scripts/`                            | Python scripts for processing & plotting                 |
 | `scripts/preprocessing_df.py`         | Preprocessing functions for high dimensional load profiles |
 | `scripts/detect_changepoints.py`      | Core logic to detect changepoints                         |
