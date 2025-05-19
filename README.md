@@ -33,5 +33,4 @@ With the increasing penetration of EVs and smart meters, understanding when and 
 | `scripts/detect_sessions.py`          | Core logic to detect charging sessions                   |
 | `scripts/plot_changepoints.py`        | Plotting functionality for changepoints                  |
 | `scripts/plot_changepoints_sessions.py`| Plotting functionality for changepoints and sessions     |
-| `results/`                            | Output session detections                                |
 | `README.md`                           | This file       
